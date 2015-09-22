@@ -9,7 +9,7 @@
     "testing",
     "browser"
   ],
-  "homepage": "http://mink.behat.org/",
+  "homepage": "https://github.com/jcalderonzumba/MinkPhantomJSExtension",
   "type": "behat-extension",
   "license": "MIT",
   "authors": [
@@ -21,16 +21,8 @@
   ],
   "require": {
     "php": ">=5.4",
-    "behat/mink": "~1.6",
     "behat/mink-extension": "~2.0",
-    "jcalderonzumba/gastonjs": "~1.0",
-    "jcalderonzumba/mink-phantomjs-driver" : "0.4.x-dev"
-  },
-  "require-dev": {
-    "symfony/process": "~2.3",
-    "symfony/phpunit-bridge": "~2.7",
-    "symfony/css-selector": "~2.1",
-    "phpunit/phpunit": "~4.6"
+    "jcalderonzumba/mink-phantomjs-driver" : "^0.4@dev"
   },
   "config": {
     "bin-dir": "bin"
@@ -38,11 +30,6 @@
   "autoload": {
     "psr-4": {
       "Zumba\\PhantomJSExtension\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Behat\\Mink\\Tests\\Driver\\": "tests/integration"
     }
   },
   "extra": {
