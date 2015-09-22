@@ -1,5 +1,5 @@
 {
-  "name": "jcalderonzumba/mink-phantomjs-extension",
+  "name": "jcalderonzumba/behat-phantomjs-extension",
   "description": "PhantomJS Mink Behat extension for Phantomjs Mink driver",
   "keywords": [
     "phantomjs",
