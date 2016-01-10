@@ -22,7 +22,7 @@
   "require": {
     "php": ">=5.4",
     "behat/mink-extension": "~2.0",
-    "jcalderonzumba/mink-phantomjs-driver" : "^0.4@dev"
+    "jcalderonzumba/mink-phantomjs-driver" : "~0.3"
   },
   "config": {
     "bin-dir": "bin"
